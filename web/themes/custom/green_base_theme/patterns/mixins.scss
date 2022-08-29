@@ -1,0 +1,25 @@
+@mixin breakpoint-large {
+    @media only screen and (max-width: 1024px) {
+      @content;
+    }
+}
+  
+@mixin breakpoint-medium {
+    @media only screen and (max-width: 768px) {
+        @content;
+    }
+}
+  
+@mixin breakpoint-small {
+    @media only screen and (max-width: 512px) {
+      @content;
+    }
+}
+
+// $mediaL: 1220px;
+// $mediaM: 1024px;
+// $mediaS: 768px;
+// $mediaMS: 660px;
+// $mediaXS: 550px;
+
+

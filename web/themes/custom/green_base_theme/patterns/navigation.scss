@@ -1,0 +1,26 @@
+.Navigation {
+	ul.menu {
+		display: flex;
+		justify-content: center;
+	}
+	.menu-item {
+		list-style: none;
+		padding: 12px;
+		margin: 20px;
+		font-size: 21px;
+	}
+	.menu {
+		li {
+			>a {
+				&:hover {
+					left: 0;
+					text-decoration: underline;
+					color: #f0bc00;
+				}
+			}
+		}
+	}
+	.menu-item .is-active { color: #f0bc00;
+	text-decoration: underline;
+}
+}

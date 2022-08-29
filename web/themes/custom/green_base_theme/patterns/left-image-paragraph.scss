@@ -1,0 +1,45 @@
+.paragraph--type--left-image {
+    position: relative;
+    .leftbody {
+      position: absolute;
+      top:200px;
+      left: 50%;
+      h3{
+        font-size: 40px;
+        color: #3a3a3a;
+        font-family: Montserrat, sans-serif;
+        line-height: 1.1;
+        }
+        h5{
+            color: #8a8a8a;
+            font-size: 20px;
+            font-family: Montserrat, sans-serif;
+        }
+       p{
+       font-size: 17px;
+       font-family: poboto, sans-serif;
+       letter-spacing: 0,34px;
+       color:#989797;
+       max-width: 55%;
+       }
+    }
+
+       .leftbutton {
+    border: 2px solid grey;
+    padding: 17px;
+    border-radius: 27px;
+    max-width: 201px;
+    &:hover{
+        background-color:  #f0bc00;
+        border-color: #f0bc00;
+    }
+    .field--name-field-link{
+        text-align: center;
+        a{
+            color:#3a3a3a;
+            text-decoration: none;
+            font-size: 14px;
+        }
+    }
+}
+}

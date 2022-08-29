@@ -1,0 +1,48 @@
+.paragraph--type--right-image{
+    img{
+        position: relative;
+    }
+    .rightbody{
+        position: absolute;
+        bottom: 1154px;
+        right: 45%;
+    }
+    .rightbutton{
+        border: 1px solid grey;
+        padding: 9px;
+        border-radius: 27px;
+        max-width: 163px;
+        font-family: Montserrat, sans-serif;
+    &:hover{
+        background-color:  orange;
+        border-color: orange;
+        }
+    }
+    h3{
+        color: #3a3a3a;
+        font-size: 35px;
+        line-height: 1.1;
+        font-family: Montserrat, sans-serif;
+        letter-spacing: 0px;
+        
+    }
+    p{
+            color: #989797;
+            font-size: 17px;
+            font-family: Poboto, sans-serif;
+            line-height: 1.1;
+            max-width: 77%;
+        }
+        .field--name-field-link{
+            text-align: center;
+            a{
+                color:#3a3a3a;
+                text-decoration: none;
+                font-size: 14px;
+            }
+            a:hover{
+                color: aliceblue;
+            }
+                    
+            }
+}

@@ -1,0 +1,65 @@
+// .gardener{
+//     display: flex;
+//     justify-content: center;
+//     gap: 50px;
+//     .garden-article{
+//         margin: 0 20px;
+//     }
+// }
+.view-gardener-view {
+  display: flex;
+  flex-direction: row;
+  .view-content{
+    display: flex;
+    padding: 0 170px;
+    gap: 50px;
+   
+  }
+  .views-row{
+    flex-direction: column;
+    .views-field-field-blogbody   {
+    .field-content{
+        p{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 1.4;
+            font-family: Poboto, sans-serif;
+            letter-spacing: 0.34px;
+            text-align: left;
+            color: #989797;
+        }
+        h2{
+            a{
+    color: #3a3a3a;
+    font-family: montrrat sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    &:hover{
+        color:rgb(253, 218, 13);
+    }
+   
+        }
+    }   
+ h3 {
+        font-family:Montserrat, sans-serif;
+        color: #3a3a3a;
+        font-size: 20px;
+        &:hover{
+            color:rgb(253, 218, 13);
+        }
+       
+        }
+    }
+
+}
+}
+}
+.paragraph--type--gardeners-blog-view-paragraph{
+    .field--name-field-blog-title{
+        font-size: 40px;
+         color: #3a3a3a;
+         font-weight: 700;
+         padding: 80px 360px;   
+    }
+}
